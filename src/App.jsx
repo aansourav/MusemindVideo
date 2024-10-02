@@ -98,7 +98,7 @@ export default function App() {
                     onMouseLeave={() => setIsHovering(false)}
                     onClick={handleMute}
                 >
-                    <source src="../src/assets/musemind.mp4" type="video/mp4" />
+                    <source src="/musemind.mp4" type="video/mp4" />
                     Your browser does not support the video tag.
                 </video>
 
